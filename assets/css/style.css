@@ -3,27 +3,27 @@
     padding: 0;
     margin: 0;
 }
-
+/* Sets webpage border to 0 so it leaves no spacing at the edges */
 body {
     background-color: #d9dcd6;
 }
-
+/* Sets background color */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Creates blue box around all header elements */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Sets font size and allows width and height to be set*/
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Changes specific letters of heading to be a different color*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,25 +31,25 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*Sets position and font of nav links*/
 header nav ul {
     list-style-type: none;
 }
-
+/*Specifies that there will be no bullet points or symbols in front of list items*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Sets like to the right of the webpage*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Sets the color of the links to white*/
 p {
     font-size: 16px;
 }
-
+/*Sets the font size of all <p> sections to 16*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,24 +58,14 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*Sets main background image and positioning under nav links*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.search-engine-optimization {
+/*Sets positioning of sections underneath main photo*/
+.services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -83,16 +73,26 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+/*Creates blue boxes in the main section, and sets the font and colors of text*/
+.services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Sets title font and position for titles in each of the sections*/
+.services img {
+    max-height: 200px;
+}
+/*Sets image size so they are all consistent*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*Pushes image left so it will alternate with the other sections*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*Pushes image right so it will alternate with other sections*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -103,30 +103,31 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit {
+/*Creates sidebar on the right side: positioning/bg color, text color*/
+.benefit-list {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit h3 {
+/*Sets text color to white and creates spacing between benefits*/
+.benefit-list h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit img {
+/*Creates spacing under benefit titles and centers texts*/
+.benefit-list img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Sets size and spacing of sidebar images*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*Creates footer font, spacing it from the rest of the website and centers text*/
 footer h2 {
     font-size: 20px;
 }
+/*Makes the first line in the footer slightly larger than the second line*/
